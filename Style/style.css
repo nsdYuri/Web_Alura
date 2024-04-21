@@ -14,11 +14,11 @@ body {
 }
 
 .destaque_intro {
-    color: #7209b7
+    color: #7209b7;
 }
 
 .conteudo {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +27,9 @@ body {
 
 .conteudo__apresentacao {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .titulo {
@@ -40,7 +43,41 @@ body {
 }
 
 .foto_yuri {
-    height: 350px;
-    width: 350px;
-    border-radius: 35px;
+    height: 420px;
+    width: 392px;
+    border-radius: 22px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 001d3d hash cor github, hash cor linkedIn 0077b6*/
+
+.linkedin {
+    background-color: #1e88e5;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+}
+
+.github {
+    background-color: #001d3d;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    font-weight: bold;
+    color: white;
 }
