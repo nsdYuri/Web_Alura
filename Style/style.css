@@ -5,8 +5,22 @@
     box-sizing: border-box;
 }
 
+/* hash da cor secundaria da nossa pagina 7209b7 */
 
 body {
+    height: 100vh;
     background-color: black;
     color: white;
+}
+
+.destaque_intro {
+    color: #7209b7
+}
+
+.conteudo {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
