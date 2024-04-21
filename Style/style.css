@@ -30,10 +30,12 @@ body {
 }
 
 .titulo {
+    font-family: "Indie Flower", cursive;
     font-size: 36px;
 }
 
 .intro {
+    font-family: "Mitr", sans-serif;
     font-size: 24px;
 }
 
