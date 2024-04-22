@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
     border: 2px solid #1e88e5;
     border-radius: 8px;
     width: 378px;
@@ -86,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
     border: 2px solid #001d3d;
     border-radius: 8px;
     width: 378px;
@@ -103,7 +103,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
     border: 2px solid #ff006e;
     border-radius: 8px;
     width: 378px;
