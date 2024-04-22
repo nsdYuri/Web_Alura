@@ -13,6 +13,34 @@ body {
     color: white;
 }
 
+.barra_navegacao {
+    display: flex;
+    height: 40px;
+    background-color: #7209b7;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.lista_pags {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.link_pag {
+    font-family: "Mitr", sans-serif;
+    color: white;
+    text-decoration: none;  
+}
+.link_pag:hover {
+    padding: 8px;
+    border-bottom: 4px solid white;
+}
+
 .destaque_intro {
     color: #7209b7;
 }
