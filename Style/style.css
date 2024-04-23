@@ -14,11 +14,7 @@ body {
 }
 
 .barra_navegacao {
-    display: flex;
     height: 40px;
-    background-color: #7209b7;
-    align-items: center;
-    justify-content: center;
 }
 
 li {
@@ -33,12 +29,12 @@ li {
 
 .link_pag {
     font-family: "Mitr", sans-serif;
+    font-size: 24;
+    font-weight: 600;
     color: white;
     text-decoration: none;  
 }
 .link_pag:hover {
-    padding: 8px;
-    border-bottom: 4px solid white;
 }
 
 .destaque_intro {
