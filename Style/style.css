@@ -13,6 +13,10 @@ body {
     color: white;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
 .barra_navegacao {
     height: 40px;
 }
@@ -24,28 +28,26 @@ li {
 .lista_pags {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 80px;
 }
 
 .link_pag {
     font-family: "Mitr", sans-serif;
     font-size: 24;
     font-weight: 600;
-    color: white;
+    color: #7209b7;
     text-decoration: none;  
 }
 .link_pag:hover {
 }
 
-.destaque_intro {
-    color: #7209b7;
-}
 
 .conteudo {
-    padding: 6% 15%;
+    padding: 3% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
     
 }
 
@@ -63,7 +65,18 @@ li {
 
 .intro {
     font-family: "Mitr", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.destaque_intro {
+    color: #7209b7;
+}
+
+.escopo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 80vh;
 }
 
 .foto_yuri {
