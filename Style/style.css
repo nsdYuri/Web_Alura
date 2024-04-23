@@ -8,7 +8,7 @@
 /* hash da cor secundaria da nossa pagina 7209b7 */
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     color: white;
 }
@@ -46,7 +46,7 @@ li {
 }
 
 .conteudo {
-    margin: 10% 15%;
+    padding: 6% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,4 +160,17 @@ li {
     height: 15px;
     width: 15px;
     color: white;
+}
+
+.rodape {
+    display: flex;
+    background-color: #7209b7;
+    color: white;
+    height: 37px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Mitr", sans-serif;
+    font-weight: bold;
 }
