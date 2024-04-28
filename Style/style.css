@@ -33,12 +33,13 @@ li {
 
 .link_pag {
     font-family: "Mitr", sans-serif;
-    font-size: 24;
+    font-size: 20px;
     font-weight: 600;
     color: #7209b7;
     text-decoration: none;  
 }
 .link_pag:hover {
+    font-size: 22px;
 }
 
 
