@@ -7,10 +7,29 @@
 
 /* hash da cor secundaria da nossa pagina 7209b7 */
 
+/* Declarando variaves no css:
+No css é possivel criar variaves em um escopo local, que serve apenas para um bloco especifico no código.
+Ou basta criar em um escopo global, assim a variavel servira para todos os escopos presentes no código
+
+Sintaxe:
+:root{
+    --nome-variavel: valor
+}
+*/
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #7209b7;
+
+    --fonte-primaria: "Indie Flower", cursive;
+    --fonte-secundaria: "Mitr", sans-serif;
+}
+
 body {
     /* height: 100vh; */
-    background-color: black;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -32,10 +51,10 @@ li {
 }
 
 .link_pag {
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
     font-weight: 600;
-    color: #7209b7;
+    color: var(--cor-terciaria);
     text-decoration: none;  
 }
 .link_pag:hover {
@@ -60,17 +79,17 @@ li {
 }
 
 .titulo {
-    font-family: "Indie Flower", cursive;
+    font-family: var(--fonte-primaria);
     font-size: 36px;
 }
 
 .intro {
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 22px;
 }
 
 .destaque_intro {
-    color: #7209b7;
+    color: var(--cor-terciaria);
 }
 
 .escopo {
@@ -95,7 +114,7 @@ li {
 }
 
 .subtitulo_links {
-    font-family: "Indie Flower", cursive;
+    font-family: var(--fonte-primaria);
     font-size: 24px;
     font-weight: 400;
 }
@@ -111,10 +130,10 @@ li {
     border-radius: 8px;
     width: 378px;
     padding: 21.5px 0;
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: bold;
     font-size: 24px;
-    color: white;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 .linkedin:hover {
@@ -132,10 +151,10 @@ li {
     border-radius: 8px;
     width: 378px;
     padding: 21.5px 0;
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: bold;
     font-size: 24px;
-    color: white;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 .github:hover {
@@ -154,10 +173,10 @@ li {
     border-radius: 8px;
     width: 378px;
     padding: 21.5px 0;
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: bold;
     font-size: 24px;
-    color: white;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 .instagram:hover {
@@ -169,18 +188,18 @@ li {
 .logo_link {
     height: 15px;
     width: 15px;
-    color: white;
+    color: var(--cor-secundaria);
 }
 
 .rodape {
     display: flex;
-    background-color: #7209b7;
+    background-color: var(--cor-terciaria);
     color: white;
     height: 37px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: "Mitr", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: bold;
 }
